@@ -1,0 +1,123 @@
+{
+  "products": [
+      {
+        "id": 1,
+        "name": "Men's Classic T-Shirt",
+        "short_name":"T-Shirt",
+        "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80",
+        "short_description": "A comfortable and stylish t-shirt for men.",
+        "long_description": "This classic t-shirt is made from high-quality cotton, providing both comfort and durability. It's perfect for casual wear and can be paired with jeans or shorts.",
+        "sizes": ["S", "M", "L", "XL"],
+        "price": "30",
+        "url": "t-shirt",
+        "rating": "4"
+      },
+      {
+        "id": 2,
+        "name": "Women's Slim Fit Jeans",
+        "short_name":"Jeans",
+        "image_url": "https://images.pexels.com/photos/17428502/pexels-photo-17428502.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "short_description": "Slim fit jeans designed for women.",
+        "long_description": "These slim fit jeans are tailored to flatter your figure while offering flexibility and comfort. They feature a modern design with multiple pockets and a zip fly closure.",
+        "sizes": ["XS", "S", "M", "L", "XL"],
+        "price": "55",
+        "url": "jeans",
+        "rating": "5"
+      },
+      {
+        "id": 3,
+        "name": "Unisex Hooded Sweatshirt",
+        "short_name":"Sweatshirt",
+        "image_url": "https://images.unsplash.com/photo-1607860087860-c46e865f6ab0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1926&q=80",
+        "short_description": "A cozy hooded sweatshirt for everyone.",
+        "long_description": "Stay warm and stylish with this unisex hooded sweatshirt. It's made from a soft blend of cotton and polyester, and it features a front pouch pocket and an adjustable drawstring hood.",
+        "sizes": ["XS", "S", "M", "L", "XL"],
+        "price": "100",
+        "url": "sweathshirt",
+        "rating": "3"
+      },
+      {
+        "id": 4,
+        "name": "Women's Casual Dress",
+        "short_name":"Dress",
+        "image_url": "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
+        "short_description": "A versatile and elegant dress for women.",
+        "long_description": "This casual dress is suitable for various occasions, from daytime outings to evening events. It features a flattering design, comfortable fabric, and is available in different colors.",
+        "sizes": ["S", "M", "L"],
+        "price": "70",
+        "url": "dress",
+        "rating": "4"
+      },
+      {
+        "id": 5,
+        "name": "Men's Sports Jacket",
+        "short_name":"Jacket",
+        "image_url": "https://images.unsplash.com/photo-1557418669-db3f781a58c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1994&q=80",
+        "short_description": "A high-performance sports jacket for men.",
+        "long_description": "Stay active and stylish with this sports jacket. It's designed for outdoor activities, featuring moisture-wicking fabric, multiple pockets, and a zip-front closure.",
+        "sizes": ["M", "L", "XL"],
+        "price": "60",
+        "url": "jacket",
+        "rating": "4"
+      },
+      {
+        "id": 6,
+        "name": "Women's Running Shoes",
+        "short_name":"Shoes",
+        "image_url": "https://plus.unsplash.com/premium_photo-1665664652418-91f260a84842?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80",
+        "short_description": "Comfortable and supportive running shoes for women.",
+        "long_description": "These running shoes are engineered for performance and comfort. They provide excellent cushioning, support, and breathability, making them ideal for workouts and running.",
+        "sizes": ["35", "36", "37", "38", "39"],
+        "price": "55",
+        "url": "shoes",
+        "rating": "5"
+      },
+      {
+        "id": 7,
+        "name": "Men's Cargo Shorts",
+        "short_name":"Shorts",
+        "image_url": "https://images.unsplash.com/photo-1617953644310-e690da9be982?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80",
+        "short_description": "Functional and stylish cargo shorts for men.",
+        "long_description": "These cargo shorts offer both style and utility with multiple pockets for storage. They're perfect for outdoor adventures and casual outings.",
+        "sizes": ["S", "M", "L", "XL"],
+        "price": "40",
+        "url": "shorts",
+        "rating": "3"
+      },
+      {
+        "id": 8,
+        "name": "Women's Yoga Leggings",
+        "short_name":"Leggings",
+        "image_url": "https://images.unsplash.com/photo-1597297260448-3cc8d0a38388?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
+        "short_description": "Stretchy and comfortable yoga leggings for women.",
+        "long_description": "Elevate your yoga practice with these comfortable leggings. They provide excellent flexibility and support, allowing you to move freely during workouts.",
+        "sizes": ["XS", "S", "M", "L"],
+        "price": "35",
+        "url": "leggings",
+        "rating": "4"
+      },
+      {
+        "id": 9,
+        "name": "Men's Formal Suit",
+        "short_name":"Suit",
+        "image_url": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
+        "short_description": "A classic formal suit for men.",
+        "long_description": "Look sharp and sophisticated in this formal suit. It's suitable for weddings, business meetings, and other formal occasions, featuring a tailored fit and timeless design.",
+        "sizes": ["M", "L", "XL"],
+        "price": "80",
+        "url": "suit",
+        "rating": "5"
+      },
+      {
+        "id": 10,
+        "name": "Women's Leather Handbag",
+        "short_name":"Handbag",
+        "image_url": "https://images.unsplash.com/photo-1606522754091-a3bbf9ad4cb3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2042&q=80",
+        "short_description": "A stylish leather handbag for women.",
+        "long_description": "Complete your ensemble with this elegant leather handbag. It's spacious, well",
+        "price": "50",
+        "url": "handbag",
+        "rating": "5"
+      }
+  ]
+}

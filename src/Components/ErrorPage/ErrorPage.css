@@ -1,0 +1,22 @@
+.error-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 6rem;
+    padding: 2rem;
+}
+
+.error-page__title{
+    font-size: 5rem;
+}
+
+.error-page__home{
+    font-size: 3rem;
+    cursor: pointer;
+    text-decoration: underline;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}

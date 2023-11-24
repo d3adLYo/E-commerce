@@ -1,0 +1,146 @@
+.product-main-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    min-height: inherit;
+    font-size: 1.8rem;
+    padding: 1rem;
+}
+
+
+.product-main-page__image{
+    width: 30%;
+    height: 60%;
+    object-fit: cover;
+    aspect-ratio: 3/4;
+    border-radius: 5px 40px 5px 40px;
+}
+
+/* Before description */
+
+.product-main-page__info{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.product-main-page__details{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.product-main-page__title{
+    margin-bottom: 1rem;
+    font-size: 2.1rem;
+    font-weight: bold;
+}
+
+.product-main-page__price{
+    font-size: 2.5rem;
+}
+
+.product-main-page__functionality{
+    min-width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.product-main-page__button{
+    min-width: 150px;
+    height: 40px;
+    padding: 5px;
+    font-size: 1.5rem;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    transition: filter 0.2s;
+
+    &:hover{
+        filter: saturate(50%);
+    }
+}
+
+/* After description */
+
+.product-main-page__description{
+    padding: 1rem;
+}
+
+.product-main-page__product-details{
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-main-page__text-details{
+    line-height: 1.6;
+    font-size: 1.5rem;
+    width: 70%;
+    text-wrap: balance;
+}
+
+
+@media (max-width: 1024px){
+    .product-main-page__image{
+        width: 40%;
+        height: 60%;
+        object-fit: cover;
+        aspect-ratio: 3/5;
+        border-radius: 5px 30px 5px 30px;
+    }
+
+    .product-main-page__text-details{
+        width: 100%;
+    }
+}
+
+@media (max-width: 640px){
+    .product-main-page{
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem 0.5rem;
+        border-bottom: 1px solid red;
+    }
+
+    .product-main-page__image{
+        width: 100%;
+        aspect-ratio: 4/3;
+        border-radius: 5px 30px 5px 30px;
+    }
+
+    .product-main-page__price{
+        font-size: 3rem;
+    }
+
+    .product-main-page__product-details{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:330px){
+    .product-main-page__details{
+        padding: 0;
+    }
+
+    .product-main-page__image{
+        object-fit: cover;
+        aspect-ratio: 3/4;
+        border-radius: 5px 25px 5px 25px;
+    }
+    
+    .product-main-page__functionality{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .product-main-page__description{
+        padding: 0;
+    }
+}
